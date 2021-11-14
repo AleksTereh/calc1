@@ -18,4 +18,5 @@
     <string name="division">/</string>
     <string name="clear">c</string>
     <string name="backspace">⌫</string>
+    <string name="todo">TODO</string>
 </resources>
