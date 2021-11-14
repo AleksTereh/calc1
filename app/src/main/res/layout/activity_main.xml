@@ -135,6 +135,42 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btn6" />
 
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            app:layout_constraintBottom_toTopOf="@+id/btn4"
+            app:layout_constraintEnd_toStartOf="@+id/btn2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            app:layout_constraintBottom_toTopOf="@+id/btn5"
+            app:layout_constraintEnd_toStartOf="@+id/btn3"
+            app:layout_constraintStart_toEndOf="@+id/btn1" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            app:layout_constraintBottom_toTopOf="@+id/btn6"
+            app:layout_constraintEnd_toStartOf="@+id/btnDivision"
+            app:layout_constraintStart_toEndOf="@+id/btn2" />
+
+        <Button
+            android:id="@+id/btnDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division"
+            app:layout_constraintBottom_toTopOf="@+id/btnMultiplication"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn3" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
