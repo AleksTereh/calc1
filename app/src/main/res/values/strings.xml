@@ -4,4 +4,8 @@
     <string name="point">.</string>
     <string name="equally">=</string>
     <string name="addition">+</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="subtraction">-</string>
 </resources>
