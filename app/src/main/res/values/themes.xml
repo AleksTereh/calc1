@@ -15,7 +15,7 @@
     </style>
 
 
-    <style name="MyGreen">
+    <style name="MyGreen" parent="Theme.Calc1">
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/green</item>
         <item name="android:textStyle">italic</item>
