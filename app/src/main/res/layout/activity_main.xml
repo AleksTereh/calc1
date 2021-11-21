@@ -19,6 +19,7 @@
 
     <TextView
         android:id="@+id/txt"
+        android:theme="@style/MyGreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textSize"
@@ -35,8 +36,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_banner_foreground"
-        app:tint="#952929" />
+        app:srcCompat="@mipmap/ic_banner"
+        tools:ignore="ImageContrastCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
