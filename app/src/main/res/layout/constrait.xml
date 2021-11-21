@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/MyGreen"
     tools:context=".MainActivity">
 
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn0"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_0"
@@ -21,7 +21,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPoint"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/point"
@@ -32,7 +31,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEqually"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/equally"
@@ -43,7 +41,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAddition"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/addition"
@@ -54,7 +51,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn7"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_7"
@@ -65,7 +61,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn8"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_8"
@@ -76,7 +71,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn9"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_9"
@@ -87,7 +81,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSubtraction"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/subtraction"
@@ -98,7 +91,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn4"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_4"
@@ -109,7 +101,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn5"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_5"
@@ -120,7 +111,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn6"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_6"
@@ -131,7 +121,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnMultiplication"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/multiplication"
@@ -142,7 +131,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn1"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_1"
@@ -153,7 +141,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn2"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_2"
@@ -164,7 +151,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn3"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/_3"
@@ -175,7 +161,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnDivision"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/division"
@@ -186,7 +171,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnСlear"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/clear"
@@ -197,7 +181,6 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBack"
-        style="@style/MyGreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/backspace"
