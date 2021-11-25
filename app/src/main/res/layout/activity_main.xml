@@ -37,33 +37,7 @@
         app:srcCompat="@mipmap/ic_banner"
         tools:ignore="ImageContrastCheck" />
 
-    <RadioGroup
-        android:id="@+id/radioButtons"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/include"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
 
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/radioButtonMyGreen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/MyGreen" />
-
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/radioButton_light_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/light_theme" />
-
-        <com.google.android.material.radiobutton.MaterialRadioButton
-            android:id="@+id/radioButton_red_theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/red_theme" />
-
-    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
