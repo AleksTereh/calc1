@@ -25,8 +25,9 @@ public class SettingsActivity extends AppCompatActivity {
         setTheme(getAppTheme(R.style.MyGreen));
         setContentView(R.layout.settings_activity);
 
-
+        initThemeChooser();
     }
+
 
 
     private void initThemeChooser() {
