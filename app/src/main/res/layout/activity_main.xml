@@ -37,7 +37,14 @@
         app:srcCompat="@mipmap/ic_banner"
         tools:ignore="ImageContrastCheck" />
 
-
+    <Button
+        android:id="@+id/btnTheme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/theme"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
