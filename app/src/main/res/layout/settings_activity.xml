@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SettingsActivity"
-    >
+    tools:context="SettingsActivity">
 
     <RadioGroup
         android:id="@+id/radioButtons"
@@ -34,5 +33,7 @@
             android:text="@string/red_theme" />
 
     </RadioGroup>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

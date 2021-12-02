@@ -1,19 +1,14 @@
 package ru.alekstereh.myapplication;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ActionMenuView;
-import android.widget.Button;
 import android.widget.RadioGroup;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.material.radiobutton.MaterialRadioButton;
 
 
-public class SettingsActivity extends AppCompatActivity implements View.OnClickListener {
+public class SettingsActivity extends AppCompatActivity {
 
     private static final String NameSharedPreference = "LOGIN";
     public static final String AppTheme = "APP_THEME";
@@ -30,20 +25,8 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
 
         initThemeChooser();
 
-        Button btnTheme = findViewById(R.id.btnTheme);
-        btnTheme.setOnClickListener(this);
 
 
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId() == R.id.btnTheme) {
-            Intent intent = new Intent(this, ActionMenuView.class);
-            break;
-            default:
-                break;
-        }
     }
 
 
@@ -57,12 +40,9 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
 
 
     private void initRadioButton(View button, final int codeStyle) {
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setAppTheme(codeStyle);
-                recreate();
-            }
+        button.setOnClickListener(v -> {
+            setAppTheme(codeStyle);
+            recreate();
         });
     }
 
