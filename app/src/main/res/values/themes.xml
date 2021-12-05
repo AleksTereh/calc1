@@ -13,4 +13,35 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="MyGreen" parent="Theme.Calc1">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">italic</item>
+        <item name="fontFamily">@font/aclonica</item>
+    </style>
+
+    <style name="light_theme" parent="Theme.MaterialComponents.Light">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorPrimary">#FF00CBFF</item>
+        <item name="colorPrimaryDark">#FF0087B0</item>
+        <item name="colorAccent">#FF203553</item>
+        <item name="fontFamily">@font/aclonica</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
+    <style name="red_theme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#b0003a</item>
+        <item name="colorAccent">#ff6090</item>
+        <item name="fontFamily">@font/aclonica</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
 </resources>

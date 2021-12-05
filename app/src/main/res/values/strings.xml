@@ -19,4 +19,7 @@
     <string name="clear">c</string>
     <string name="backspace">⌫</string>
     <string name="todo">TODO</string>
+    <string name="MyGreen">MyGreen</string>
+    <string name="light_theme">light_theme</string>
+    <string name="red_theme">red_theme</string>
 </resources>
