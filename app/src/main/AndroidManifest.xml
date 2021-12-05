@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Calc1">
-        <activity android:name=".SettingsActivity"/>
+        <activity android:name="SettingsActivity"/>
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"

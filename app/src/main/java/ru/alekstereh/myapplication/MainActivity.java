@@ -5,12 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ActionMenuView;
 import android.widget.Button;
 import android.widget.TextView;
-
-import java.io.Serializable;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
         operator = '1';
         memory = 0;
         display = findViewById(R.id.txt);
+
+        Button btnTheme = findViewById(R.id.btnTheme);
+        btnTheme.setOnClickListener(
+                v -> {
+                    Intent intent = new Intent("SettingsActivity");
+                    startActivity(intent);
+                });
+
 
 
     }
@@ -168,6 +172,9 @@ public class MainActivity extends AppCompatActivity {
             operator = bAdd.getText().charAt(0);
             display.setText("");
         });
+
+
+
 
     }
 
