@@ -2,13 +2,17 @@ package ru.alekstereh.myapplication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ActionMenuView;
 import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.Serializable;
 
-public class MainActivity extends AppCompatActivity implements Serializable {
+public class MainActivity extends AppCompatActivity {
 
     private static final String KEY_MEMORY = "key_memory";
     private static final String KEY_OPERATOR = "key_operator";
@@ -28,7 +32,9 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         memory = 0;
         display = findViewById(R.id.txt);
 
+
     }
+
 
     private void initButton() {
         Button b1 = findViewById(R.id.btn1);
